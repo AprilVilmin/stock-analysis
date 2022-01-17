@@ -32,12 +32,16 @@ Disadvantages
 2. New Errors or Vulunerabilities Could Be Added to the Code in Error/By Mistake
 
 - How do these pros and cons apply to refactoring the original VBA script?
-1. The run times decreased.
+1. The code is less complicated in the fact that there are not any inner loops.
+2. The run times decreased.
 
 Prior to Refactoring 
+
 ![2017 Prior to Refactoring.png](https://github.com/AprilVilmin/stock-analysis/blob/main/2017%20Prior%20to%20Refactoring.png)
+
 ![2018 Prior to Refactoring.png](https://github.com/AprilVilmin/stock-analysis/blob/main/2018%20Prior%20to%20Refactoring.png)
 
 After Refactoring
 ![VBA_Challenge_2017.png](https://github.com/AprilVilmin/stock-analysis/blob/main/VBA_Challenge_2017.png)
+
 ![VBA_Challenge_2018.png](https://github.com/AprilVilmin/stock-analysis/blob/main/VBA_Challenge_2018.png)
