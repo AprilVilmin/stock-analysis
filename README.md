@@ -21,28 +21,28 @@ Steve created an Excel Workbook containg stock data for several green energy com
 ![VBA_Challenge_2018.png](https://github.com/AprilVilmin/stock-analysis/blob/main/VBA_Challenge_2018.png)
 
 ## Summary
-- What are the advantages or disadvantages of refactoring code?
+### What are the advantages or disadvantages of refactoring code?
 
-Advantages
+#### Advantages
 1. Increased System Performance (Runtime)
 2. More Efficent Code
 3. Adding Comments/Notes to the Code
 
-Disadvantages
+#### Disadvantages
 1. Time Consuming
 2. New Errors or Vulunerabilities Could Be Added to the Code in Error/By Mistake
 
-- How do these pros and cons apply to refactoring the original VBA script?
+### How do these pros and cons apply to refactoring the original VBA script?
 1. The code is less complicated in the fact that there are not any inner loops.
 2. The run times decreased.
 
-Prior to Refactoring 
+#### Prior to Refactoring 
 
 ![2017 Prior to Refactoring.png](https://github.com/AprilVilmin/stock-analysis/blob/main/2017%20Prior%20to%20Refactoring.png)
 
 ![2018 Prior to Refactoring.png](https://github.com/AprilVilmin/stock-analysis/blob/main/2018%20Prior%20to%20Refactoring.png)
 
-After Refactoring
+#### After Refactoring
 
 ![VBA_Challenge_2017.png](https://github.com/AprilVilmin/stock-analysis/blob/main/VBA_Challenge_2017.png)
 
