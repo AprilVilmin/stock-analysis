@@ -17,6 +17,7 @@ Steve created an Excel Workbook containg stock data for several green energy com
 
 ## Results
 ![VBA_Challenge_2017.png](https://github.com/AprilVilmin/stock-analysis/blob/main/VBA_Challenge_2017.png)
+
 ![VBA_Challenge_2018.png](https://github.com/AprilVilmin/stock-analysis/blob/main/VBA_Challenge_2018.png)
 
 ## Summary
@@ -42,6 +43,7 @@ Prior to Refactoring
 ![2018 Prior to Refactoring.png](https://github.com/AprilVilmin/stock-analysis/blob/main/2018%20Prior%20to%20Refactoring.png)
 
 After Refactoring
+
 ![VBA_Challenge_2017.png](https://github.com/AprilVilmin/stock-analysis/blob/main/VBA_Challenge_2017.png)
 
 ![VBA_Challenge_2018.png](https://github.com/AprilVilmin/stock-analysis/blob/main/VBA_Challenge_2018.png)
