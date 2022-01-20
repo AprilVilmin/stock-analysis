@@ -17,9 +17,29 @@ Steve created an Excel Workbook containing the stock data for the twelve green e
 10. Refactor the VBA Code to try to get it to run faster
 
 ## Results
-The Total Daily Volume and Return results were the same before and after the code was refactored. Which is great as the results are not supposed to change due to the data being refactored. One difference to note is that this macro has different formatting on the Total Daily Volume and Return columns than some of the other macros due to Skill Drill within the module. The run times decreased, which was the goal of this refactoring. The details of the decrease are outlined in more detail in the 'Advantages' section in the Summary. 
+The Total Daily Volume and Ret
+urn results were the same before and after the code was refactored (screenshots provided below). Which is great as the results are not supposed to change due to the data being refactored. One difference to note is that this macro has different formatting on the Total Daily Volume and Return columns than some of the other macros due to Skill Drill within the module. The run times decreased, which was the goal of this refactoring. The details of the decrease are outlined in more detail in the 'Advantages' section in the Summary. 
 
-![VBA_Challenge_2017.png](https://github.com/AprilVilmin/stock-analysis/blob/main/VBA_Challenge_2017.png)
+### Results Prior to Refactoring
+
+#### 2017 
+
+![2017 Before Refactoring.png](https://github.com/AprilVilmin/stock-analysis/blob/main/2017%20Before%20Refactoring.png)
+
+#### 2018
+![2018 Before Refactoring.png](https://github.com/AprilVilmin/stock-analysis/blob/main/2018%20Before%20Refactoring.png)
+
+### Results Post Refactoring
+
+#### 2017 
+![2017 Before Refactoring.png](https://github.com/AprilVilmin/stock-analysis/blob/main/2018%20Before%20Refactoring.png)
+
+#### 2018
+![2018 Before Refactoring.png](https://github.com/AprilVilmin/stock-analysis/blob/main/2018%20After%20Refactoring.png)
+
+### Runtimes Post Refactoring
+
+![VBA_Challenge_2017.png](https://github.com/AprilVilmin/stock-analysis/blob/main/2017%20After%20Refactoring.png)
 
 ![VBA_Challenge_2018.png](https://github.com/AprilVilmin/stock-analysis/blob/main/VBA_Challenge_2018.png)
 
