@@ -46,7 +46,6 @@ urn results were the same before and after the code was refactored (screenshots 
 ### Greatest Impact
 I think that the removal of the nested loop is one of the things that had the greatest impact on the speed in the refactored code. I have included a snippet of the code that was removed below:
 
-
        Worksheets(yearValue).Activate
        For j = 2 To RowCount
            '5a) Get total volume for current ticker
@@ -84,9 +83,33 @@ I think that the removal of the nested loop is one of the things that had the gr
 ### How do these pros and cons apply to refactoring the original VBA script?
 Yes, several of these apply. See the details below:
 
-1. The code is less complicated/more efficient in the fact that there are not any nested loops.
+1. The code is less complicated/more efficient in the fact that there are not any nested loops. See code snippet below.
 2. Refactoring this code took me many hours.
 3. The run times decreased. See the screenshots below.
+
+#### Piece of Removed Code (Same as Snippet Above)
+
+      Worksheets(yearValue).Activate
+       For j = 2 To RowCount
+           '5a) Get total volume for current ticker
+           If Cells(j, 1).Value = ticker Then
+
+               totalVolume = totalVolume + Cells(j, 8).Value
+
+           End If
+           '5b) get starting price for current ticker
+           If Cells(j - 1, 1).Value <> ticker And Cells(j, 1).Value = ticker Then
+
+               startingPrice = Cells(j, 6).Value
+
+           End If
+
+           '5c) get ending price for current ticker
+           If Cells(j + 1, 1).Value <> ticker And Cells(j, 1).Value = ticker Then
+
+               endingPrice = Cells(j, 6).Value
+
+           End If
 
 #### Prior to Refactoring 
 
