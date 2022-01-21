@@ -46,7 +46,7 @@ urn results were the same before and after the code was refactored (screenshots 
 ### Greatest Impact
 I think that the removal of the nested loop is one of the things that had the greatest impact on the speed in the refactored code. I have included a snippet of the code that was removed below:
 
-'5) loop through rows in the data
+
        Worksheets(yearValue).Activate
        For j = 2 To RowCount
            '5a) Get total volume for current ticker
