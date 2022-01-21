@@ -43,6 +43,32 @@ urn results were the same before and after the code was refactored (screenshots 
 
 ![VBA_Challenge_2018.png](https://github.com/AprilVilmin/stock-analysis/blob/main/VBA_Challenge_2018.png)
 
+### Greatest Impact
+I think that the removal of the nested loop is one of the things that had the greatest impact on the speed in the refactored code. I have included a snippet of the code that was removed below:
+
+'5) loop through rows in the data
+       Worksheets(yearValue).Activate
+       For j = 2 To RowCount
+           '5a) Get total volume for current ticker
+           If Cells(j, 1).Value = ticker Then
+
+               totalVolume = totalVolume + Cells(j, 8).Value
+
+           End If
+           '5b) get starting price for current ticker
+           If Cells(j - 1, 1).Value <> ticker And Cells(j, 1).Value = ticker Then
+
+               startingPrice = Cells(j, 6).Value
+
+           End If
+
+           '5c) get ending price for current ticker
+           If Cells(j + 1, 1).Value <> ticker And Cells(j, 1).Value = ticker Then
+
+               endingPrice = Cells(j, 6).Value
+
+           End If
+
 ## Summary
 ### What are the advantages or disadvantages of refactoring code?
 
