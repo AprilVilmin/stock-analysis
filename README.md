@@ -32,7 +32,7 @@ urn results were the same before and after the code was refactored (screenshots 
 ### Results Post Refactoring
 
 #### 2017 
-![2017 After Refactoring.png](https://github.com/AprilVilmin/stock-analysis/blob/main/2018%20Before%20Refactoring.png)
+![2017 After Refactoring.png](https://github.com/AprilVilmin/stock-analysis/blob/main/2017%20After%20Refactoring.png)
 
 #### 2018
 ![2018 After Refactoring.png](https://github.com/AprilVilmin/stock-analysis/blob/main/2018%20After%20Refactoring.png)
